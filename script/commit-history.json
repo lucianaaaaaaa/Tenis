@@ -1,11 +1,11 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "318f96fa621d59700e61d4d75539b86b35c8d081",
     "author": "lucianaaaaaaa",
     "commit": {
       "date": "2025-09-02T01:59:17.000Z",
       "message": "feat: tablero inicial love-love",
-      "url": "https://github.com/lucianaaaaaaa/Tenis/commit/HEAD"
+      "url": "https://github.com/lucianaaaaaaa/Tenis/commit/318f96fa621d59700e61d4d75539b86b35c8d081"
     },
     "stats": {
       "total": 2164,
@@ -15,6 +15,25 @@
     },
     "coverage": 100,
     "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "lucianaaaaaaa",
+    "commit": {
+      "date": "2025-09-02T02:02:33.000Z",
+      "message": "feat: el jugador 1 marca 1 punto y el jugador 2 0",
+      "url": "https://github.com/lucianaaaaaaa/Tenis/commit/HEAD"
+    },
+    "stats": {
+      "total": 15,
+      "additions": 15,
+      "deletions": 0,
+      "date": "2025-09-02"
+    },
+    "coverage": 100,
+    "test_count": 3,
     "failed_tests": 0,
     "conclusion": "success"
   }
