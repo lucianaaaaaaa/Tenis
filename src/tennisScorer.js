@@ -33,6 +33,8 @@ class TennisScorer {
         return "Deuce";
     } else if(this.player1Points === 4 && this.player2Points === 3){
         return "Advantage Player 1";
+    } else if(this.player1Points === 3 && this.player2Points === 4){
+        return "Advantage Player 2";
     }
 
     
