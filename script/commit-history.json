@@ -1,0 +1,21 @@
+[
+  {
+    "sha": "HEAD",
+    "author": "lucianaaaaaaa",
+    "commit": {
+      "date": "2025-09-02T01:59:17.000Z",
+      "message": "feat: tablero inicial love-love",
+      "url": "https://github.com/lucianaaaaaaa/Tenis/commit/HEAD"
+    },
+    "stats": {
+      "total": 2164,
+      "additions": 1102,
+      "deletions": 1062,
+      "date": "2025-09-02"
+    },
+    "coverage": 100,
+    "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  }
+]
