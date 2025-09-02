@@ -35,9 +35,9 @@ class TennisScorer {
         return "Advantage Player 1";
     } else if(this.player1Points === 3 && this.player2Points === 4){
         return "Advantage Player 2";
+    } else if(this.player1Points === 5 && this.player2Points === 3){
+        return "Game for Player 1";
     }
-
-    
     else if(this.player1Points === 0 && this.player2Points === 0){
         return "Love - Love";
     }

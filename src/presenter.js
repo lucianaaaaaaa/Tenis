@@ -1,15 +1,35 @@
-import sumar from "./sumador";
+import TennisScorer from "./tennisScorer";
 
-const first = document.querySelector("#primer-numero");
-const second = document.querySelector("#segundo-numero");
-const form = document.querySelector("#sumar-form");
-const div = document.querySelector("#resultado-div");
+class Presenter {
+  constructor() {
+    this.scorer = new TennisScorer();
+    this.scoreDisplay = document.getElementById("scoreDisplay");
+    this.updateScore();
+  }
 
-form.addEventListener("submit", (event) => {
-  event.preventDefault();
+  player1Scores() {
+    this.scorer.player1Scores();
+    this.updateScore();
+  }
 
-  const firstNumber = Number.parseInt(first.value);
-  const secondNumber = Number.parseInt(second.value);
+  player2Scores() {
+    this.scorer.player2Scores();
+    this.updateScore();
+  }
 
-  div.innerHTML = "<p>" + sumar(firstNumber, secondNumber) + "</p>";
+  updateScore() {
+    this.scoreDisplay.textContent = `Score: ${this.scorer.showScore()}`;
+  }
+}
+
+const presenter = new Presenter();
+
+document.getElementById("player1Button").addEventListener("click", () => {
+  presenter.player1Scores();
 });
+
+document.getElementById("player2Button").addEventListener("click", () => {
+  presenter.player2Scores();
+});
+
+export default Presenter;
