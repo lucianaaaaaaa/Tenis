@@ -114,12 +114,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "bb47177e26e7ef2dde9779b70b6195fb78f617cd",
     "author": "lucianaaaaaaa",
     "commit": {
       "date": "2025-09-02T02:38:56.000Z",
       "message": "feat: el jugador 2 marca 3 puntos y el 1 0",
-      "url": "https://github.com/lucianaaaaaaa/Tenis/commit/HEAD"
+      "url": "https://github.com/lucianaaaaaaa/Tenis/commit/bb47177e26e7ef2dde9779b70b6195fb78f617cd"
     },
     "stats": {
       "total": 12,
@@ -129,6 +129,25 @@
     },
     "coverage": 100,
     "test_count": 9,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "lucianaaaaaaa",
+    "commit": {
+      "date": "2025-09-02T02:40:31.000Z",
+      "message": "feat: el jugador 2 marca 4 puntos y gana el set y el 1 0",
+      "url": "https://github.com/lucianaaaaaaa/Tenis/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 10,
+      "deletions": 0,
+      "date": "2025-09-02"
+    },
+    "coverage": 100,
+    "test_count": 10,
     "failed_tests": 0,
     "conclusion": "success"
   }
