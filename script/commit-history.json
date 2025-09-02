@@ -228,12 +228,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "54f43a94159b4556463062b6236e8f45b3d18f1b",
     "author": "lucianaaaaaaa",
     "commit": {
       "date": "2025-09-02T02:54:35.000Z",
       "message": "feat: ambos jugadores marcan 3 puntos y entran a deuce",
-      "url": "https://github.com/lucianaaaaaaa/Tenis/commit/HEAD"
+      "url": "https://github.com/lucianaaaaaaa/Tenis/commit/54f43a94159b4556463062b6236e8f45b3d18f1b"
     },
     "stats": {
       "total": 15,
@@ -243,6 +243,25 @@
     },
     "coverage": 100,
     "test_count": 15,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "lucianaaaaaaa",
+    "commit": {
+      "date": "2025-09-02T02:56:26.000Z",
+      "message": "feat: el jugador 1 toma la ventaja",
+      "url": "https://github.com/lucianaaaaaaa/Tenis/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 14,
+      "deletions": 0,
+      "date": "2025-09-02"
+    },
+    "coverage": 100,
+    "test_count": 16,
     "failed_tests": 0,
     "conclusion": "success"
   }
