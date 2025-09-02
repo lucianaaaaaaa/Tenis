@@ -134,5 +134,17 @@ describe("TennisScorer", () => {
     scorer.player2Scores();
     expect(scorer.showScore()).toEqual("Game for Player 1");
   });
+  it("Jugador 2 marca 5 puntos y jugador 1 marca 3 puntos", () => {
+    const scorer = new TennisScorer();
+    scorer.player2Scores();
+    scorer.player2Scores();
+    scorer.player2Scores();
+    scorer.player2Scores();
+    scorer.player2Scores();
+    scorer.player1Scores();
+    scorer.player1Scores();
+    scorer.player1Scores();
+    expect(scorer.showScore()).toEqual("Game for Player 2");
+  });
 
 });
