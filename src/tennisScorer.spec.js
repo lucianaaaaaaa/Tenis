@@ -87,7 +87,18 @@ describe("TennisScorer", () => {
     scorer.player1Scores();
     scorer.player1Scores();
     scorer.player2Scores();
+    scorer.player2Scores();
     expect(scorer.showScore()).toEqual("40 - 30");
+  });
+  it("Ambos jugadores marcan 3 puntos", () => {
+    const scorer = new TennisScorer();
+    scorer.player1Scores();
+    scorer.player1Scores();
+    scorer.player1Scores();
+    scorer.player2Scores();
+    scorer.player2Scores();
+    scorer.player2Scores();
+    expect(scorer.showScore()).toEqual("Deuce");
   });
 
 });
