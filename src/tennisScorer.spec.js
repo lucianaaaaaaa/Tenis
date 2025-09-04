@@ -146,5 +146,22 @@ describe("TennisScorer", () => {
     scorer.player1Scores();
     expect(scorer.showScore()).toEqual("Game for Player 2");
   });
-
+  it("Juego vuelve a Deuce varias veces antes de que un jugador gane", () => {
+  const scorer = new TennisScorer();
+  scorer.player1Scores();
+  scorer.player1Scores();
+  scorer.player1Scores();
+  scorer.player2Scores();
+  scorer.player2Scores();
+  scorer.player2Scores();
+  expect(scorer.showScore()).toEqual("Deuce");
+  scorer.player1Scores();
+  expect(scorer.showScore()).toEqual("Advantage Player 1");
+  scorer.player2Scores(); 
+  expect(scorer.showScore()).toEqual("Deuce");
+  scorer.player2Scores(); 
+  expect(scorer.showScore()).toEqual("Advantage Player 2");
+  scorer.player2Scores(); 
+  expect(scorer.showScore()).toEqual("Game for Player 2");
+});
 });
